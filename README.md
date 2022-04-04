@@ -20,18 +20,18 @@
 
 
 <p align="center">
-  <a href="#overview">Overview</a>
+  <a href="#pr%C3%A9sentation">Présentation</a>
   •
   <a href="#installation">Installation</a>
   •
   <a href="https://github.com/arthurduino/NeonMusic/wiki">Documentation</a>
   •
-  <a href="#join-the-community">Community</a>
+  <a href="#rejoignez-la-communaut%C3%A9">Communauté</a>
   •
   <a href="#license">License</a>
 </p>
 
-# Overview
+# Présentation
 
 NeonMusic est un bot de musique performant pour discord.
 
