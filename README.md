@@ -1,39 +1,63 @@
-# NeonMusic - Open Source Discord Music Bot 
+<h1 align="center">
+  <br>
+  <img src="https://cdn.discordapp.com/avatars/909826264645373972/64b6d989b85472a16323d7992b4da9f2.png" alt="NeonMusic - Discord Bot"></a>
+  <br>
+  Neon Music - Discord music Bot
+  <br>
+  <a href="https://discord.com/api/oauth2/authorize?client_id=909826264645373972&permissions=139887766865&scope=bot%20applications.command">Ajouter le bot</a><br>
+  <a href="https://discord.gg/XVgXcfE9mb">Serveur de support</a><br>
+  <br>
+</h1>
 
-[Ajouter le bot](https://discord.com/api/oauth2/authorize?client_id=909826264645373972&permissions=139887766865&scope=bot%20applications.command)
-[Serveur de suppport](https://discord.gg/XVgXcfE9mb)
 
-#### 1. Compléter la configuration
-```js
-module.exports = {
-    app: {
-        px: 'your_prefix',
-        token: 'your_token',
-        playing: 'status_of_the_bot'
-    },
+<h4 align="center">Bot de musique opensource simple et performant.</h4>
 
-    opt: {
-        DJ: {
-            enabled: false,
-            roleName: 'DJ',
-            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'seek', 'shuffle', 'skip', 'stop', 'volume']
-        },
-        maxVol: 100,
-        loopMessage: false,
-        discordPlayer: {
-            ytdlOptions: {
-                quality: 'highestaudio',
-                highWaterMark: 1 << 25
-            }
-        }
-    }
-};
-```
+<p align="center">
+  <a href="https://discord.gg/XVgXcfE9mb">
+    <img src="https://discordapp.com/api/guilds/901476028713668610/widget.png?style=shield" alt="Discord Server">
+  </a>
+</p>
 
-#### 2. Installer les dépendances
+
+<p align="center">
+  <a href="#overview">Overview</a>
+  •
+  <a href="#installation">Installation</a>
+  •
+  <a href="https://github.com/arthurduino/NeonMusic/wiki">Documentation</a>
+  •
+  <a href="#join-the-community">Community</a>
+  •
+  <a href="#license">License</a>
+</p>
+
+# Overview
+
+NeonMusic est un bot de musique performant pour discord.
+
+# Installation
+
+#### Personaliser la configuration
+Modifier le préfixe, le token ainsi que le statut du bot dans le fichier [config.js](https://github.com/arthurduino/NeonMusic/blob/main/config.js)
+
+#### Installer les dépendances
 `npm i`
 
-#### 3. Lancer le bot
+#### Lancer le bot
 `node index`
 
-![Logo of NeonMusic](https://cdn.discordapp.com/avatars/909826264645373972/64b6d989b85472a16323d7992b4da9f2.png)
+Si vous rencontrez des problèmes, rejoignez notre
+[serveur de support](https://discord.gg/XVgXcfE9mb) and ask in the **#support** channel for help.
+
+
+# Rejoignez la communauté!
+
+**NeonMusic** est en développement continu et est soutenu par une communauté active qui produit du nouveau contenu pour le plaisir de tous.
+contenu pour que chacun puisse en profiter. De nouvelles fonctionnalités sont constamment ajoutées. 
+Consultez notre [guide](https://github.com/arthurduino/NeonMusic/wiki) pour plus d'information.
+
+Rejoignez notre [serveur de support](https://discord.gg/XVgXcfE9mb)!
+
+# License
+
+Distribué sous licence [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
