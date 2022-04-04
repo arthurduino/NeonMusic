@@ -47,7 +47,7 @@ Modifier le préfixe, le token ainsi que le statut du bot dans le fichier [confi
 `node index`
 
 Si vous rencontrez des problèmes, rejoignez notre
-[serveur de support](https://discord.gg/XVgXcfE9mb) and ask in the **#support** channel for help.
+[serveur de support](https://discord.gg/XVgXcfE9mb), nous pourrons vous aider.
 
 
 # Rejoignez la communauté!
