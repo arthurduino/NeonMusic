@@ -1,1 +1,1 @@
-# neonmusic2
+# NeonMusic - Open Source Discord Music Bot 
