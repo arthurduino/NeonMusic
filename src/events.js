@@ -93,7 +93,7 @@ player.on('trackStart', (queue, track) => {
             	msg.edit({
                 embeds: [{
                     color: 'BLUE',
-                    title: `En cours de lecture : __ture : Breath${track.title}__`,
+                    title: `En cours de lecture : __${track.title}__`,
                     thumbnail: {url: track.thumbnail},
                     fields: [
                         {name: '💡 Demandé par :', value: `<@${track.requestedBy.id}>`, inline: true},
